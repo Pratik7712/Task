@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(238, 247, 242);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+a:hover {
+  color: rgb(104, 48, 189);
+}
+
+h1.logo {
+  font-size: 30px;
+}
+
+.navigation {
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+}
+
+.header {
+  min-height: 15vh;
+  background-color: #F3FCF7;
+  color: rgb(104, 48, 189);
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav {
+  min-height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  width: 40%;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.btn-nav {
+  display: flex;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px 30px;
+}
+
+.colom {
+  width: 50%;
+  height: 100vh;
+  float: left;
+  padding: 15px;
+  align-items: center;
+}
+
+.business {
+  font-size: 49px;
+  font-weight: bolder;
+  margin: 20% 0 0 18%;
+  color: rgb(48, 49, 48);
+}
+
+span.span {
+  color: rgb(141, 114, 224);
+}
+
+.lorem {
+  font-size: 20px;
+  color: rgb(115, 120, 117);
+  margin: 10px 65px 0 18%;
+}
+
+.gstart {
+  margin: 20px 15px 0 18%;
+  padding: 17px 40px;
+  border-radius: 10px;
+  background-color: rgb(114, 76, 247);
+  color: white;
+}
+
+.lmore {
+  margin: 20px 15px 0 10px;
+  border: 2px solid black;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.foot {
+  margin-top: 116vh;
+  height: 25vh;
+  background-color: rgb(14, 37, 73);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.number {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+
+.num {
+  margin-top: 20px;
+  font-size: 50px;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10%;
+  font-size: 20px;
+}
+span{
+  color: white;
+}
